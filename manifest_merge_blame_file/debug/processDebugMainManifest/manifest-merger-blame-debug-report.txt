@@ -1,0 +1,353 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobile.uph24si3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+12-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:6:5-72
+12-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:6:22-69
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission
+15-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:9:5-10:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:9:22-78
+17        android:maxSdkVersion="28" />
+17-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:10:9-35
+18    <uses-permission
+18-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:11:5-12:38
+19        android:name="android.permission.READ_EXTERNAL_STORAGE"
+19-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:11:22-77
+20        android:maxSdkVersion="32" />
+20-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:12:9-35
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:13:5-77
+21-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:13:22-74
+22
+23    <queries>
+23-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:15:5-17:15
+24        <package android:name="com.budgetku.dummybank" />
+24-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:16:9-58
+24-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:16:18-55
+25    </queries>
+26
+27    <!-- SMS Auto-Read for automatic bank transaction recording -->
+28    <uses-permission android:name="android.permission.READ_SMS" />
+28-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:20:5-67
+28-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:20:22-64
+29    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+29-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:21:5-70
+29-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:21:22-67
+30    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+30-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:22:5-70
+30-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:22:22-67
+31
+32    <!-- suppress DeprecatedClassUsageInspection -->
+33    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+33-->[androidx.biometric:biometric:1.1.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\481b435a277e5392932a9f30e00ac510\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+33-->[androidx.biometric:biometric:1.1.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\481b435a277e5392932a9f30e00ac510\workspace\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+34
+35    <permission
+35-->[androidx.core:core:1.18.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\cf9108bf2af9d57da16d504d9ca0ca7d\workspace\transformed\core-1.18.0\AndroidManifest.xml:22:5-24:47
+36        android:name="com.mobile.uph24si3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.18.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\cf9108bf2af9d57da16d504d9ca0ca7d\workspace\transformed\core-1.18.0\AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.18.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\cf9108bf2af9d57da16d504d9ca0ca7d\workspace\transformed\core-1.18.0\AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.mobile.uph24si3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.18.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\cf9108bf2af9d57da16d504d9ca0ca7d\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.18.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\cf9108bf2af9d57da16d504d9ca0ca7d\workspace\transformed\core-1.18.0\AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:24:5-133:19
+42        android:allowBackup="true"
+42-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:25:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.18.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\cf9108bf2af9d57da16d504d9ca0ca7d\workspace\transformed\core-1.18.0\AndroidManifest.xml:28:18-86
+44        android:dataExtractionRules="@xml/data_extraction_rules"
+44-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:26:9-65
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+46-->INJECTED
+47        android:fullBackupContent="@xml/backup_rules"
+47-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:27:9-54
+48        android:icon="@mipmap/ic_launcher"
+48-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:28:9-43
+49        android:label="@string/app_name"
+49-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:29:9-41
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:30:9-54
+51        android:supportsRtl="false"
+51-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:31:9-36
+52        android:testOnly="true"
+53        android:theme="@style/Theme.BudgetKu" >
+53-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:32:9-46
+54
+55        <!-- Splash / Entry Activity -->
+56        <activity
+56-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:36:9-45:20
+57            android:name="com.mobile.uph24si3.MainActivity"
+57-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:37:13-41
+58            android:exported="true"
+58-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:38:13-36
+59            android:screenOrientation="portrait"
+59-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:40:13-49
+60            android:theme="@style/Theme.BudgetKu.Splash" >
+60-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:39:13-57
+61            <intent-filter>
+61-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:41:13-44:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:42:17-69
+62-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:42:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:43:17-77
+64-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:43:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <!-- Login Activity -->
+69        <activity
+69-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:48:9-52:52
+70            android:name="com.mobile.uph24si3.LoginActivity"
+70-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:49:13-42
+71            android:exported="false"
+71-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:50:13-37
+72            android:screenOrientation="portrait"
+72-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:52:13-49
+73            android:theme="@style/Theme.BudgetKu.Login" />
+73-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:51:13-56
+74
+75        <!-- Register Activity -->
+76        <activity
+76-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:55:9-59:52
+77            android:name="com.mobile.uph24si3.RegisterActivity"
+77-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:56:13-45
+78            android:exported="false"
+78-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:57:13-37
+79            android:screenOrientation="portrait"
+79-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:59:13-49
+80            android:theme="@style/Theme.BudgetKu.Login" />
+80-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:58:13-56
+81
+82        <!-- OTP Verification Activity -->
+83        <activity
+83-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:62:9-66:52
+84            android:name="com.mobile.uph24si3.OtpVerificationActivity"
+84-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:63:13-52
+85            android:exported="false"
+85-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:64:13-37
+86            android:screenOrientation="portrait"
+86-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:66:13-49
+87            android:theme="@style/Theme.BudgetKu.Login" />
+87-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:65:13-56
+88
+89        <!-- Home Activity baru -->
+90        <activity
+90-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:69:9-72:52
+91            android:name="com.mobile.uph24si3.HomeActivity"
+91-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:70:13-41
+92            android:exported="false"
+92-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:71:13-37
+93            android:screenOrientation="portrait" />
+93-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:72:13-49
+94
+95        <!-- History Search Activity -->
+96        <activity
+96-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:75:9-78:52
+97            android:name="com.mobile.uph24si3.HistorySearchActivity"
+97-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:76:13-50
+98            android:exported="false"
+98-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:77:13-37
+99            android:screenOrientation="portrait" />
+99-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:78:13-49
+100
+101        <!-- Main Dashboard Activity -->
+102        <activity
+102-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:81:9-84:52
+103            android:name="com.mobile.uph24si3.DashboardActivity"
+103-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:82:13-46
+104            android:exported="false"
+104-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:83:13-37
+105            android:screenOrientation="portrait" />
+105-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:84:13-49
+106
+107        <!-- My Profile Activity (standalone, full-featured profile page) -->
+108        <activity
+108-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:87:9-91:58
+109            android:name="com.mobile.uph24si3.MyProfileActivity"
+109-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:88:13-46
+110            android:exported="false"
+110-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:89:13-37
+111            android:screenOrientation="portrait"
+111-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:90:13-49
+112            android:windowSoftInputMode="adjustResize" />
+112-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:91:13-55
+113
+114        <!-- Profil Activity (halaman profil sesuai soal UTS - menampilkan data user) -->
+115        <activity
+115-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:94:9-98:58
+116            android:name="com.mobile.uph24si3.ProfilActivity"
+116-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:95:13-43
+117            android:exported="false"
+117-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:96:13-37
+118            android:screenOrientation="portrait"
+118-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:97:13-49
+119            android:windowSoftInputMode="adjustResize" />
+119-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:98:13-55
+120
+121        <!-- Fruit List Activity - Daftar Buah-buahan -->
+122        <activity
+122-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:101:9-105:50
+123            android:name="com.mobile.uph24si3.FruitListActivity"
+123-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:102:13-46
+124            android:exported="false"
+124-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:103:13-37
+125            android:label="Daftar Buah-buahan"
+125-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:105:13-47
+126            android:screenOrientation="portrait" />
+126-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:104:13-49
+127
+128        <!-- Detail Buah Activity - Detail informasi buah -->
+129        <activity
+129-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:108:9-112:63
+130            android:name="com.mobile.uph24si3.DetailBuahActivity"
+130-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:109:13-47
+131            android:exported="false"
+131-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:110:13-37
+132            android:parentActivityName="com.mobile.uph24si3.FruitListActivity"
+132-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:112:13-60
+133            android:screenOrientation="portrait" />
+133-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:111:13-49
+134
+135        <!-- SMS Receiver - Auto-capture bank transactions from SMS -->
+136        <receiver
+136-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:115:9-122:20
+137            android:name="com.mobile.uph24si3.sms.SmsReceiver"
+137-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:116:13-44
+138            android:exported="true"
+138-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:117:13-36
+139            android:permission="android.permission.BROADCAST_SMS" >
+139-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:118:13-66
+140            <intent-filter android:priority="999" >
+140-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:119:13-121:29
+140-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:119:28-50
+141                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+141-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:120:17-82
+141-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:120:25-79
+142            </intent-filter>
+143        </receiver>
+144
+145        <!-- Bank Transaction Receiver - Real-time link with DummyBank -->
+146        <receiver
+146-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:125:9-131:20
+147            android:name="com.mobile.uph24si3.sms.BankTransactionReceiver"
+147-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:126:13-56
+148            android:exported="true" >
+148-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:127:13-36
+149            <intent-filter>
+149-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:128:13-130:29
+150                <action android:name="com.budgetku.BANK_TRANSACTION" />
+150-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:129:17-72
+150-->C:\Users\ASUS\Downloads\Mobile24SI3-main\Mobile24SI3-main\app\src\main\AndroidManifest.xml:129:25-69
+151            </intent-filter>
+152        </receiver>
+153
+154        <activity
+154-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\8b1a53fcea25ab22208efca85346179d\workspace\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+155            android:name="androidx.compose.ui.tooling.PreviewActivity"
+155-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\8b1a53fcea25ab22208efca85346179d\workspace\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+156            android:exported="true" />
+156-->[androidx.compose.ui:ui-tooling-android:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\8b1a53fcea25ab22208efca85346179d\workspace\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+157        <activity
+157-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\018408b5b126ab50fdd193e6a12349ce\workspace\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:23:9-26:79
+158            android:name="androidx.activity.ComponentActivity"
+158-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\018408b5b126ab50fdd193e6a12349ce\workspace\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:24:13-63
+159            android:exported="true"
+159-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\018408b5b126ab50fdd193e6a12349ce\workspace\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:25:13-36
+160            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+160-->[androidx.compose.ui:ui-test-manifest:1.9.2] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\018408b5b126ab50fdd193e6a12349ce\workspace\transformed\ui-test-manifest-1.9.2\AndroidManifest.xml:26:13-76
+161
+162        <provider
+162-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+163            android:name="androidx.startup.InitializationProvider"
+163-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+164            android:authorities="com.mobile.uph24si3.androidx-startup"
+164-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+165            android:exported="false" >
+165-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+166            <meta-data
+166-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+167                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+167-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+168                android:value="androidx.startup" />
+168-->[androidx.emoji2:emoji2:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\2f1120a95b27210b41a299eb58248050\workspace\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+169            <meta-data
+169-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\c138554362c760b488f86774b518ced7\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+170                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+170-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\c138554362c760b488f86774b518ced7\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+171                android:value="androidx.startup" />
+171-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\c138554362c760b488f86774b518ced7\workspace\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+172            <meta-data
+172-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+173                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+174                android:value="androidx.startup" />
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+175        </provider>
+176
+177        <receiver
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+178            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+178-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+179            android:directBootAware="false"
+179-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+180            android:enabled="true"
+180-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+181            android:exported="true"
+181-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+182            android:permission="android.permission.DUMP" >
+182-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+183            <intent-filter>
+183-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+184                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+184-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+184-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+185            </intent-filter>
+186            <intent-filter>
+186-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+187                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+188            </intent-filter>
+189            <intent-filter>
+189-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+190                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+190-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+191            </intent-filter>
+192            <intent-filter>
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+193                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ASUS\.gradle\caches\9.3.1\transforms\41e00bf81e3bb223e048f959574b79df\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+194            </intent-filter>
+195        </receiver>
+196    </application>
+197
+198</manifest>
