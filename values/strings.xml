@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BudgetKu</string>
+    <string name="app_tagline">Kelola Keuanganmu dengan Cerdas</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_transaction">Transaksi</string>
+    <string name="nav_budget">Budget</string>
+    <string name="nav_split">Split</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Home / Dashboard -->
+    <string name="total_balance">Total Saldo</string>
+    <string name="income_this_month">Pemasukan Bulan Ini</string>
+    <string name="expense_this_month">Pengeluaran Bulan Ini</string>
+    <string name="recent_transactions">Transaksi Terbaru</string>
+    <string name="see_all">Lihat Semua</string>
+    <string name="linked_accounts">Akun Terhubung</string>
+    <string name="add_account">+ Tambah Akun</string>
+    <string name="expense_by_category">Pengeluaran per Kategori</string>
+    <string name="no_transactions">Belum ada transaksi</string>
+
+    <!-- Transaction -->
+    <string name="transactions">Transaksi</string>
+    <string name="add_income">Tambah Pemasukan</string>
+    <string name="add_expense">Tambah Pengeluaran</string>
+    <string name="income">Pemasukan</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="amount">Jumlah</string>
+    <string name="category">Kategori</string>
+    <string name="description">Deskripsi</string>
+    <string name="date">Tanggal</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="all">Semua</string>
+    <string name="search_transaction">Cari transaksi...</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Urutkan</string>
+    <string name="transaction_deleted">Transaksi dihapus</string>
+    <string name="undo">Undo</string>
+
+    <!-- Budget -->
+    <string name="budget">Budget</string>
+    <string name="budget_goals">Target Budget</string>
+    <string name="savings">Tabungan</string>
+    <string name="recurring_bills">Tagihan Rutin</string>
+    <string name="add_budget">Tambah Budget</string>
+    <string name="add_savings">Tambah Tabungan</string>
+    <string name="add_recurring">Tambah Tagihan</string>
+    <string name="monthly_limit">Batas Bulanan</string>
+    <string name="used">Terpakai</string>
+    <string name="remaining">Sisa</string>
+    <string name="target_amount">Target Jumlah</string>
+    <string name="current_amount">Jumlah Saat Ini</string>
+    <string name="deadline">Tenggat Waktu</string>
+    <string name="due_date">Jatuh Tempo</string>
+    <string name="bill_name">Nama Tagihan</string>
+    <string name="over_budget">Melebihi Budget!</string>
+
+    <!-- Split Bill -->
+    <string name="split_bill">Split Bill</string>
+    <string name="new_split">Split Bill Baru</string>
+    <string name="split_title">Judul Split</string>
+    <string name="total_amount">Total Tagihan</string>
+    <string name="members">Anggota</string>
+    <string name="add_member">+ Tambah Anggota</string>
+    <string name="per_person">Per Orang</string>
+    <string name="split_equally">Bagi Sama Rata</string>
+    <string name="member_name">Nama Anggota</string>
+    <string name="paid">Sudah Bayar</string>
+    <string name="unpaid">Belum Bayar</string>
+    <string name="create_split">Buat Split</string>
+    <string name="no_splits">Belum ada split bill</string>
+    <string name="detail_split">Detail Split Bill</string>
+
+    <!-- Bank Account / Link -->
+    <string name="link_bank">Hubungkan Akun Bank</string>
+    <string name="bank_name">Nama Bank / E-Wallet</string>
+    <string name="account_number">Nomor Akun</string>
+    <string name="account_holder">Nama Pemegang</string>
+    <string name="initial_balance">Saldo Awal</string>
+    <string name="link">Hubungkan</string>
+    <string name="account_linked">Akun berhasil dihubungkan!</string>
+    <string name="unlink">Putuskan</string>
+    <string name="balance">Saldo</string>
+
+    <!-- Profile -->
+    <string name="profile">Profil</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="name">Nama</string>
+    <string name="currency">Mata Uang</string>
+    <string name="change_pin">Ubah PIN</string>
+    <string name="export_report">Export Laporan</string>
+    <string name="manage_categories">Kelola Kategori</string>
+    <string name="notifications">Notifikasi</string>
+    <string name="about">Tentang App</string>
+    <string name="version">Versi 1.0.0</string>
+    <string name="logout">Logout</string>
+    <string name="report_exported">Laporan berhasil diekspor!</string>
+
+    <!-- PIN / Login -->
+    <string name="enter_pin">Masukkan PIN</string>
+    <string name="create_pin">Buat PIN Baru</string>
+    <string name="confirm_pin">Konfirmasi PIN</string>
+    <string name="pin_mismatch">PIN tidak cocok, coba lagi</string>
+    <string name="pin_wrong">PIN salah, coba lagi</string>
+    <string name="pin_created">PIN berhasil dibuat!</string>
+    <string name="skip_pin">Lewati (tidak disarankan)</string>
+
+    <!-- Categories (Default) -->
+    <string name="cat_food">Makanan</string>
+    <string name="cat_transport">Transportasi</string>
+    <string name="cat_shopping">Belanja</string>
+    <string name="cat_health">Kesehatan</string>
+    <string name="cat_entertainment">Hiburan</string>
+    <string name="cat_education">Pendidikan</string>
+    <string name="cat_bills">Tagihan</string>
+    <string name="cat_salary">Gaji</string>
+    <string name="cat_freelance">Freelance</string>
+    <string name="cat_investment">Investasi</string>
+    <string name="cat_other">Lainnya</string>
+
+    <!-- Messages -->
+    <string name="error_empty_field">Kolom tidak boleh kosong</string>
+    <string name="error_invalid_amount">Jumlah tidak valid</string>
+    <string name="success_saved">Berhasil disimpan!</string>
+    <string name="confirm_delete">Yakin ingin menghapus?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="loading">Memuat...</string>
+
+    <!-- Notifications -->
+    <string name="budget_alert_title">Peringatan Budget</string>
+    <string name="budget_alert_msg">Budget %s hampir habis! Tersisa Rp %s</string>
+    <string name="bill_reminder_title">Pengingat Tagihan</string>
+    <string name="bill_reminder_msg">Tagihan %s jatuh tempo dalam %d hari</string>
+</resources>

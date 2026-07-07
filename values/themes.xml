@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BudgetKu Dark Premium Theme -->
+    <style name="Theme.BudgetKu" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="colorPrimaryDark">@color/bg_primary</item>
+        <item name="colorAccent">@color/accent_green</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+        <item name="android:navigationBarColor">@color/bg_secondary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.BudgetKu.Splash" parent="Theme.BudgetKu">
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/bg_primary</item>
+    </style>
+
+    <!-- Login Screen Theme -->
+    <style name="Theme.BudgetKu.Login" parent="Theme.BudgetKu">
+        <item name="android:windowBackground">@color/bg_primary</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="Widget.BudgetKu.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="backgroundTint">@color/bg_secondary</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.BudgetKu.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/border_color</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Button Primary Style -->
+    <style name="Widget.BudgetKu.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_green</item>
+        <item name="android:textColor">@color/bg_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Button Outlined Style -->
+    <style name="Widget.BudgetKu.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/accent_green</item>
+        <item name="android:textColor">@color/accent_green</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- Text Input Style -->
+    <style name="Widget.BudgetKu.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/bg_card</item>
+        <item name="boxStrokeColor">@color/border_color</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Chip Style -->
+    <style name="Widget.BudgetKu.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/bg_card_elevated</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="chipStrokeColor">@color/border_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconTint">@color/accent_green</item>
+    </style>
+
+    <!-- Tab Layout Style -->
+    <style name="Widget.BudgetKu.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabBackground">@color/bg_secondary</item>
+        <item name="tabSelectedTextColor">@color/accent_green</item>
+        <item name="tabTextColor">@color/text_secondary</item>
+        <item name="tabIndicatorColor">@color/accent_green</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!-- Floating Action Button -->
+    <style name="Widget.BudgetKu.FAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/accent_green</item>
+        <item name="tint">@color/bg_primary</item>
+    </style>
+
+    <!-- Dialog Style -->
+    <style name="Widget.BudgetKu.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/bg_card</item>
+        <item name="android:windowBackground">@color/bg_card</item>
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="materialAlertDialogTheme">@style/Widget.BudgetKu.Dialog</item>
+    </style>
+
+    <style name="CircleAppearance">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
