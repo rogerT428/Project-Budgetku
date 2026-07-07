@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\fragment_budget.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_budget_goal.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_budget_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_split_member.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_split_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_history_search.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_history_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_detail_buah.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_detail_buah.xml"
+    },
+    {
+        "merged": "com.mobile.uph24si3.app-mergeDebugResources-47:/layout/fragment_home.xml",
+        "source": "com.mobile.uph24si3.app-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_savings.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_savings.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_export_report.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_export_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_recurring_bill.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_recurring_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_add_recurring.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_add_recurring.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_edit_profil.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_edit_profil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_my_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_my_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_split_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_split_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_link_bank.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_link_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\fragment_split_bill.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\fragment_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_split_bill.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_manage_categories.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_manage_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_home_simple.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_home_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_add_budget.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_add_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_buah.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_buah.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_split_bill.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_split_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_otp_verification.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_otp_verification.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_fruit_list.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_fruit_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_add_transaction.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_add_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\fragment_buah.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\fragment_buah.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\fragment_transaction.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\fragment_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\activity_profil.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\activity_profil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\item_bank_account.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\item_bank_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-mergeDebugResources-47:\\layout\\dialog_add_savings.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\9.3.1\\com.mobile.uph24si3.app-main-50:\\layout\\dialog_add_savings.xml"
+    }
+]
