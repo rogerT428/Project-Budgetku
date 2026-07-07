@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#212121"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Green Header with Emoji -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="#2E7D32"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp">
+
+                <!-- Emoji Image Box (white card) -->
+                <FrameLayout
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/bg_fruit_image_card">
+
+                    <TextView
+                        android:id="@+id/tvDetailEmoji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="96sp"
+                        android:text="🍊" />
+                </FrameLayout>
+
+                <!-- Fruit Name -->
+                <TextView
+                    android:id="@+id/tvDetailNama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Jeruk"
+                    android:textSize="28sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+            </LinearLayout>
+
+            <!-- Info Row: Asal & Rasa -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp">
+
+                <!-- Asal -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🌍 Asal"
+                        android:textSize="12sp"
+                        android:textColor="#757575" />
+
+                    <TextView
+                        android:id="@+id/tvDetailAsal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Asia Selatan"
+                        android:textSize="14sp"
+                        android:textColor="#212121"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Vertical Divider -->
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#E0E0E0" />
+
+                <!-- Rasa -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="😋 Rasa"
+                        android:textSize="12sp"
+                        android:textColor="#757575" />
+
+                    <TextView
+                        android:id="@+id/tvDetailRasa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Manis-asam segar"
+                        android:textSize="14sp"
+                        android:textColor="#212121"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Horizontal Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#F0F0F0" />
+
+            <!-- Deskripsi Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp">
+
+                <!-- Section Header: Deskripsi -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📖 Deskripsi"
+                    android:textSize="16sp"
+                    android:textColor="#388E3C"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Divider under header -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E8F5E9"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Description Text -->
+                <TextView
+                    android:id="@+id/tvDetailDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jeruk adalah buah citrus yang kaya vitamin C."
+                    android:textSize="14sp"
+                    android:textColor="#424242"
+                    android:lineSpacingMultiplier="1.5" />
+
+            </LinearLayout>
+
+            <!-- Horizontal Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="#F0F0F0" />
+
+            <!-- Manfaat Kesehatan Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:paddingBottom="32dp">
+
+                <!-- Section Header: Manfaat -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✅ Manfaat Kesehatan"
+                    android:textSize="16sp"
+                    android:textColor="#388E3C"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Divider under header -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#E8F5E9"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Manfaat items will be added dynamically -->
+                <LinearLayout
+                    android:id="@+id/containerManfaat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

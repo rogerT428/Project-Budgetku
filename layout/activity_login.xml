@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1117"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="28dp"
+        android:paddingTop="60dp"
+        android:paddingBottom="40dp">
+
+        <!-- Logo / Icon -->
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="💰"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:background="@drawable/bg_circle"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Judul -->
+        <TextView
+            android:id="@+id/tvLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"
+            android:textColor="#F0F6FC"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:id="@+id/tvLoginSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masuk ke akun BudgetKu Anda"
+            android:textColor="#8B949E"
+            android:textSize="14sp"
+            android:layout_marginBottom="40dp" />
+
+        <!-- === INPUT: NAMA LENGKAP === -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Nama Lengkap"
+            style="@style/Widget.BudgetKu.TextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:textColor="#F0F6FC"
+                android:textSize="15sp"
+                android:inputType="textPersonName"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- === INPUT: PASSWORD === -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:hint="Password"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.BudgetKu.TextInputLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:textColor="#F0F6FC"
+                android:textSize="15sp"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- === TOMBOL LOGIN === -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="LOGIN"
+            android:textColor="#0D1117"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"
+            android:background="@drawable/bg_btn_primary"
+            android:layout_marginBottom="16dp" />
+
+        <!-- === TOMBOL BIOMETRIC (PREMIUM) === -->
+        <Button
+            android:id="@+id/btnBiometricLogin"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🧬  LOGIN SIDIK JARI"
+            android:textColor="@color/accent_green"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/bg_card"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <TextView
+            android:id="@+id/tvToRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun? Daftar di sini"
+            android:textColor="@color/accent_green"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Garis pemisah -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#21262D" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  BudgetKu  "
+                android:textColor="#484F58"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#21262D" />
+        </LinearLayout>
+
+        <!-- Versi info -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile24SI3 • v1.0.0"
+            android:textColor="#484F58"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>

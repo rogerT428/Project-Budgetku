@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0D1117"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💰"
+        android:textSize="72sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BudgetKu"
+        android:textColor="#F0F6FC"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"/>
+
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelola Keuanganmu dengan Cerdas"
+        android:textColor="#8B949E"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ProgressBar
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:indeterminateTint="#00D4AA"/>
+
+</LinearLayout>

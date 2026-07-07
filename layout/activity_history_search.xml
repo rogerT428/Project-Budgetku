@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_primary">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/bg_secondary"
+        android:paddingHorizontal="16dp">
+
+        <ImageButton
+            android:id="@+id/btnBackHistory"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="@color/text_primary"
+            android:contentDescription="Back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Cari Riwayat"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Date Picker Row -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/bg_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilih Tanggal Transaksi"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnSelectDate"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="📅  Pilih Tanggal"
+                android:textAlignment="textStart"
+                android:paddingStart="20dp"
+                android:textColor="@color/text_primary"
+                android:backgroundTint="@color/bg_card_elevated"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <TextView
+                android:id="@+id/tvSelectedDateDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menampilkan transaksi hari ini"
+                android:textColor="@color/accent_green"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Summary Row for the selected date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/bg_section_card"
+            android:padding="12dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pemasukan"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"/>
+            <TextView
+                android:id="@+id/tvHistoryIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 0"
+                android:textColor="@color/accent_green"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/bg_section_card"
+            android:padding="12dp"
+            android:layout_marginStart="6dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengeluaran"
+                android:textColor="@color/text_secondary"
+                android:textSize="11sp"/>
+            <TextView
+                android:id="@+id/tvHistoryExpense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 0"
+                android:textColor="@color/expense_color"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistorySearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="16dp"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvHistoryEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tidak ada transaksi pada tanggal ini"
+        android:textColor="@color/text_hint"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

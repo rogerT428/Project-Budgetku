@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💰 Tambah Target Tabungan"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Nama Target" android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText android:id="@+id/etSavingsName"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:hint="Contoh: Liburan ke Bali, Beli Laptop"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_card" android:paddingHorizontal="16dp"
+            android:inputType="text" android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Icon (emoji)" android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText android:id="@+id/etSavingsIcon"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:hint="🎯"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_card" android:paddingHorizontal="16dp"
+            android:inputType="text" android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Target Jumlah (Rp)" android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText android:id="@+id/etSavingsTarget"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:hint="Contoh: 5000000"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_card" android:paddingHorizontal="16dp"
+            android:inputType="numberDecimal" android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Sudah Terkumpul (Rp)" android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText android:id="@+id/etSavingsCurrent"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:hint="0"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_card" android:paddingHorizontal="16dp"
+            android:inputType="numberDecimal" android:layout_marginBottom="12dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Target Tanggal (yyyy-MM-dd)" android:textColor="@color/text_secondary" android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText android:id="@+id/etSavingsDeadline"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:hint="2025-12-31"
+            android:textColor="@color/text_primary" android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_card" android:paddingHorizontal="16dp"
+            android:inputType="text" android:layout_marginBottom="20dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:weightSum="2">
+
+            <Button android:id="@+id/btnCancelSavings"
+                android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"
+                android:layout_marginEnd="8dp" android:text="Batal"
+                android:textColor="@color/text_secondary" android:backgroundTint="@color/bg_card_elevated"
+                app:cornerRadius="12dp"/>
+
+            <Button android:id="@+id/btnSaveSavings"
+                android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"
+                android:text="Simpan"
+                android:textColor="@color/bg_primary" android:backgroundTint="@color/accent_green"
+                app:cornerRadius="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFruitList"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#212121"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/listViewBuah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+        android:dividerHeight="1dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="#FFFFFF"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>

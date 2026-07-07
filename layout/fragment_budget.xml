@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_primary">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Budget &amp; Tabungan"
+        android:textColor="@color/text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Tab Layout -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutBudget"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="12dp"
+        app:tabBackground="@color/bg_card"
+        app:tabSelectedTextColor="@color/accent_green"
+        app:tabTextColor="@color/text_secondary"
+        app:tabIndicatorColor="@color/accent_green"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"/>
+
+    <!-- Budget Tab Content -->
+    <ScrollView
+        android:id="@+id/tabContentBudget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <Button
+                android:id="@+id/btnAddBudget"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="12dp"
+                android:text="+ Tambah Budget Goal"
+                android:textColor="@color/bg_primary"
+                android:backgroundTint="@color/accent_green"
+                app:cornerRadius="12dp"/>
+
+            <TextView
+                android:id="@+id/tvNoBudgets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🎯 Belum ada budget goal\nTambahkan untuk mulai melacak pengeluaran"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingVertical="32dp"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvBudgets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Savings Tab Content -->
+    <ScrollView
+        android:id="@+id/tabContentSavings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <Button
+                android:id="@+id/btnAddSavings"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="12dp"
+                android:text="+ Tambah Target Tabungan"
+                android:textColor="@color/bg_primary"
+                android:backgroundTint="@color/accent_green"
+                app:cornerRadius="12dp"/>
+
+            <TextView
+                android:id="@+id/tvNoSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💰 Belum ada target tabungan\nTambahkan impian Anda sekarang!"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingVertical="32dp"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Recurring Bills Tab Content -->
+    <ScrollView
+        android:id="@+id/tabContentRecurring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="100dp">
+
+            <Button
+                android:id="@+id/btnAddRecurring"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="12dp"
+                android:text="+ Tambah Tagihan Rutin"
+                android:textColor="@color/bg_primary"
+                android:backgroundTint="@color/accent_green"
+                app:cornerRadius="12dp"/>
+
+            <TextView
+                android:id="@+id/tvNoRecurring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📅 Belum ada tagihan rutin\nTambahkan untuk pengingat otomatis!"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingVertical="32dp"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvRecurring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

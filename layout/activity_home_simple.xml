@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0D1117"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎉"
+        android:textSize="80sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang!"
+        android:textColor="#F0F6FC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda telah berhasil login ke aplikasi."
+        android:textColor="#8B949E"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="LOGOUT / KELUAR"
+        android:textColor="#F0F6FC"
+        android:backgroundTint="#FF4D4F"
+        style="@style/Widget.MaterialComponents.Button"/>
+
+</LinearLayout>
